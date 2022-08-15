@@ -1,0 +1,31 @@
+.app-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	margin: 1rem 0;
+}
+
+.app-header-logo {
+	width: 70px;
+}
+
+.app-header-app-name {
+	font-size: 1.2rem;
+	margin-left: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media screen and (min-width: 1200px) {
+}

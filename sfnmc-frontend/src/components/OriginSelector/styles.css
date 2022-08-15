@@ -1,0 +1,69 @@
+.origin-selector {
+	display: flex;
+	width: 100%;
+	margin: 3rem 0;
+	justify-content: center;
+}
+
+.origin-selector-form {
+	display: flex;
+	width: 40vw;
+	min-width: 25rem;
+}
+
+.origin-selector-input-container {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.origin-selector-label {
+	padding: 0 1rem;
+	margin-bottom: 0.2rem;
+}
+
+.origin-selector-input {
+	padding: 1rem;
+	border-radius: 50px;
+	border: none;
+	font-size: 1rem;
+	outline: none;
+	color: #d66853;
+}
+
+input.origin-selector-input::-webkit-calendar-picker-indicator {
+	opacity: 1;
+}
+
+.origin-selector-button-container {
+	display: flex;
+	margin-left: 0.5rem;
+}
+
+.origin-selector-button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	margin-left: 0.5rem;
+	margin-bottom: 0.7rem;
+	color: #d66853;
+	height: fit-content;
+	align-self: flex-end;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.origin-selector-list {
+	background-color: white;
+}
+
+.origin-selector-error {
+	color: #f94144;
+}
+
+@media screen and (max-width: 576px) {
+	.origin-selector-form {
+		width: 80vw;
+		min-width: unset;
+	}
+}

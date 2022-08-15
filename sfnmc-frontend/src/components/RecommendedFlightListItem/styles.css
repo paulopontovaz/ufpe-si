@@ -1,0 +1,32 @@
+.recommended-flight-list-item {
+	display: "flex";
+	align-items: "center";
+	gap: "10px";
+}
+
+.recommended-flight-list-item img {
+	width: 45px;
+	height: 45px;
+}
+
+.recommended-flight-list-item td {
+	font-weight: bold;
+	flex: 1;
+	text-align: center;
+}
+
+.recommended-flight-list-item td.green {
+	color: #90be6d;
+}
+.recommended-flight-list-item td.red {
+	color: #e76f51;
+}
+
+.recommended-flight-list-item-country {
+	display: flex;
+	align-items: center;
+}
+
+.recommended-flight-list-item-country p {
+	margin-left: 1rem;
+}

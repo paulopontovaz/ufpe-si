@@ -1,0 +1,29 @@
+.app {
+	display: flex;
+	flex-direction: column;
+	width: 80vw;
+	min-height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+	.app {
+		width: 95vw;
+		padding: 2.5vw;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.app {
+		width: 95vw;
+		padding: 2.5vw;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
